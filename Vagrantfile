@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "centos/8"
+  config.vm.box = "generic/fedora33"
   # config.vm.box_check_update = false
   config.vm.network "forwarded_port", guest: 80, host: 8080
   config.vm.network "forwarded_port", guest: 4440, host: 4440

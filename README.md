@@ -16,4 +16,27 @@ boundaries— to have secure and safe self-service access to Operations tasks. O
 a significant reductions in interruptions, faster incident response times, and improved visibility
 into Ops related activities. Rundeck works with existing tools and scripts, so there is a minimal learning curve.
 
+## Installation
 
+You have two installation scripts:
+
+### Enterprise
+
+```
+./install-Enterprise.sh
+
+```
+
+### OpenSource
+
+```
+./install-OpenSource.sh
+```
+
+## Vagrant
+
+If you want to test in vagrant. You have Vagrantfile and you can try
+
+```
+vagrant up
+```
