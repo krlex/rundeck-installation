@@ -40,3 +40,14 @@ If you want to test in vagrant. You have Vagrantfile and you can try
 ```
 vagrant up
 ```
+
+## Direct Download and Installation
+
+```
+bash <(curl -sL https://raw.githubusercontent.com/krlex/rundeck-installation/master/install-Enterprise.sh)
+```
+or
+
+```
+bash <(curl -sL https://raw.githubusercontent.com/krlex/rundeck-installation/master/install-OpenSource.sh)
+```
